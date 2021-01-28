@@ -1,3 +1,8 @@
+/**Okul kayit ekraninda ogrenci kaydetme ve silme 
+ * Diger islemler (ogrenci sayisi ,inputlarin bos kalmamasi)
+ * Form islemleri bootstrap dan alinmistir.
+ * Bu programda UI prototype kullanilmistir.
+ */
 document.querySelector("#kullaniciForm").addEventListener("submit",kullaniciEkle);
 document.querySelector("#ogrenciListesi").addEventListener("click",ogrenciSil);
 let count=0;
